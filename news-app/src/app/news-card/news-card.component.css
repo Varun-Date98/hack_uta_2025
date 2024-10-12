@@ -1,0 +1,11 @@
+.news-card {
+    max-width: 400px;
+    margin: 10px;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
