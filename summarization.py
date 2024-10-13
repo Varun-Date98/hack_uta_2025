@@ -8,7 +8,7 @@ import numpy as np
 # Initialize the Gemini API
 def initialize_gemini():
     # Configure the API key
-    genai.configure(api_key="AIzaSyAXBElvzTQUa7iwieomLu5g8VQ0YSBrZI0")  # Replace with your actual API key 
+    genai.configure(api_key="..")  # Replace with your actual API key 
 
     # Create the model with specified configuration
     generation_config = {
@@ -72,7 +72,7 @@ def main():
     news_data = load_news_data()
 
     # Limit to the first 50 articles
-    news_data = news_data.head(50)
+    news_data = news_data.head(100)
 
     # Initialize Gemini API session
     chat_session = initialize_gemini()
