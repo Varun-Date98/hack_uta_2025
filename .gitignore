@@ -1,2 +1,3 @@
 # My virtual environment
 env
+src/secrets.json
